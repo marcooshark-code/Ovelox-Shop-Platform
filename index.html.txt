@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovelox Shop: حيث يلتقي الإرث بالابتكار.</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <header class="main-header">
+        <h1 class="ovelox-logo">Ovelox Shop</h1>
+        <p class="slogan">حيث يلتقي الإرث بالابتكار. استثمر في جودة تستحق إرثًا.</p>
+    </header>
+
+    <section class="offer-banner-container">
+        <div class="offer-marquee">
+            <span>⚠️ احجز من خلال الواتساب الآن واحصل على خصم ١٥٪؜ على إجمالي طلبك! 💎 (العرض يتجدد كل ٤٨ ساعة) </span>
+            <span>⚠️ احجز من خلال الواتساب الآن واحصل على خصم ١٥٪؜ على إجمالي طلبك! 💎 (العرض يتجدد كل ٤٨ ساعة) </span>
+        </div>
+    </section>
+
+    <section class="video-presentation">
+        <video src="assets/media/your-video-file.mp4" autoplay loop muted playsinline poster="assets/media/video-cover.jpg"></video>
+    </section>
+
+    <section class="product-gallery">
+        <h2 class="section-title wood-text">اكتشف منتجاتنا.. ما وراء الملمس</h2>
+        <div class="image-grid">
+            <div class="grid-item">
+                <img src="assets/media/image-1.jpg" alt="أفضل بائع - Top Seller">
+                <p>الأكثر مبيعاً: جودة لا مثيل لها</p>
+            </div>
+            <div class="grid-item">
+                <img src="assets/media/image-2.jpg" alt="مجموعات متكاملة">
+                <p>مجموعات متكاملة لمنزلك</p>
+            </div>
+            <div class="grid-item">
+                <img src="assets/media/image-3.jpg" alt="المنتج أثناء الاستخدام">
+                <p>شاهد منتجاتنا قيد العمل</p>
+            </div>
+            <div class="grid-item">
+                <img src="assets/media/image-4.jpg" alt="ضمان Ovelox الذهبي">
+                <p>ضمان ذهبي وثقة مطلقة</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact-section">
+        <h2 class="section-title">خطوتك نحو الفخامة تبدأ الآن</h2>
+        <p>تواصل مع مستشار التصميم الخاص بك:</p>
+        <a href="https://wa.me/00201066676445" target="_blank" class="whatsapp-button">
+            احجز الآن عبر الواتساب (خصم 15%)
+            <span class="phone-number">00201066676445</span>
+        </a>
+        <p class="commitment-text">الفرق بين المتجر والورشة: نحن نقدم خبرة الحرفيين.</p>
+    </footer>
+
+    <a href="https://wa.me/00201066676445" target="_blank" id="floating-whatsapp-btn" title="احجز الآن">
+        <img src="assets/media/whatsapp-icon.png" alt="WhatsApp">
+    </a>
+    
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
