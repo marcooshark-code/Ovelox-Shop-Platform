@@ -2,64 +2,93 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ovelox Shop: حيث يلتقي الإرث بالابتكار.</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ovelox Shop: حيث يلتقي الإرث بالابتكار | www.ovelox.com</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     
+    <section class="top-banner-container">
+        <div class="scrolling-text">
+            <span>15% OFF!! Order via Whatsapp - مصنوعة بحب OVELOX • </span>
+            <span>15% OFF!! Order via Whatsapp - DESIGNED BY OVELOX • </span>
+        </div>
+    </section>
+
     <header class="main-header">
-        <h1 class="ovelox-logo">Ovelox Shop</h1>
-        <p class="slogan">حيث يلتقي الإرث بالابتكار. استثمر في جودة تستحق إرثًا.</p>
+        <div class="logo-area">
+            <a href="/" class="ovelox-logo wood-text">Ovelox Shop</a> 
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#featured">الأكثر مبيعاً</a></li>
+                <li><a href="#guarantee">ضمان الجودة</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon-placeholder">
+            <i class="fas fa-shopping-cart" id="cart-btn"></i>
+            <span class="cart-count">0</span>
+        </div>
     </header>
 
-    <section class="offer-banner-container">
-        <div class="offer-marquee">
-            <span>⚠️ احجز من خلال الواتساب الآن واحصل على خصم ١٥٪؜ على إجمالي طلبك! 💎 (العرض يتجدد كل ٤٨ ساعة) </span>
-            <span>⚠️ احجز من خلال الواتساب الآن واحصل على خصم ١٥٪؜ على إجمالي طلبك! 💎 (العرض يتجدد كل ٤٨ ساعة) </span>
-        </div>
+    <section class="hero-video">
+        <video src="Assests/media/intro-video.mp4" autoplay loop muted playsinline poster="Assests/media/video-cover.jpg"></video>
     </section>
 
-    <section class="video-presentation">
-        <video src="assets/media/your-video-file.mp4" autoplay loop muted playsinline poster="assets/media/video-cover.jpg"></video>
-    </section>
-
-    <section class="product-gallery">
+    <section id="featured" class="product-showcase">
         <h2 class="section-title wood-text">اكتشف منتجاتنا.. ما وراء الملمس</h2>
-        <div class="image-grid">
-            <div class="grid-item">
-                <img src="assets/media/image-1.jpg" alt="أفضل بائع - Top Seller">
-                <p>الأكثر مبيعاً: جودة لا مثيل لها</p>
+        
+        <div class="product-item">
+            <div class="product-image">
+                <img src="Assests/media/folding-chair.jpg" alt="Folding Chair with Hand Rest Beech Wooden">
+                <div class="design-tag">DESIGNED BY OVELOX</div>
             </div>
-            <div class="grid-item">
-                <img src="assets/media/image-2.jpg" alt="مجموعات متكاملة">
-                <p>مجموعات متكاملة لمنزلك</p>
-            </div>
-            <div class="grid-item">
-                <img src="assets/media/image-3.jpg" alt="المنتج أثناء الاستخدام">
-                <p>شاهد منتجاتنا قيد العمل</p>
-            </div>
-            <div class="grid-item">
-                <img src="assets/media/image-4.jpg" alt="ضمان Ovelox الذهبي">
-                <p>ضمان ذهبي وثقة مطلقة</p>
+            <div class="product-details">
+                <h3 class="wood-text">Folding Chair with Hand Rest Beech Wooden</h3>
+                <p class="premium-description">
+                    مصنوعة بحب OVELOX - قطعة أثاث تجمع بين الفخامة والعملية. مصممة ببراعة حرفية تضمن الراحة المطلقة وتفاصيل خشب الزان الفاخر.
+                </p>
+                <ul class="specs">
+                    <li><i class="fas fa-hammer"></i> النوع: خشب الزان الفاخر (Beech Wood)</li>
+                    <li><i class="fas fa-truck"></i> التوصيل: خلال 3-7 أيام عمل</li>
+                    <li><i class="fas fa-medal"></i> الضمان: ضمان ذهبي ممتد</li>
+                </ul>
+                <div class="price-area">
+                    <span class="price-current">5,900 E£</span>
+                    <span class="price-old">7,500 E£</span>
+                </div>
+                <button class="btn add-to-cart-btn" data-product-id="1">أضف إلى العربة</button>
             </div>
         </div>
     </section>
 
-    <footer class="contact-section">
-        <h2 class="section-title">خطوتك نحو الفخامة تبدأ الآن</h2>
-        <p>تواصل مع مستشار التصميم الخاص بك:</p>
-        <a href="https://wa.me/00201066676445" target="_blank" class="whatsapp-button">
-            احجز الآن عبر الواتساب (خصم 15%)
-            <span class="phone-number">00201066676445</span>
-        </a>
-        <p class="commitment-text">الفرق بين المتجر والورشة: نحن نقدم خبرة الحرفيين.</p>
+    <section id="guarantee" class="about-guarantee-section">
+        <h2 class="section-title wood-text">إرث Ovelox Shop: الجودة، الإبداع، والراحة</h2>
+        <div class="content-block">
+            <p>
+                في Ovelox Shop، نحن لا نبيع الخشب، بل نصنع قصصاً من الجودة والحرفية المتقنة. مهمتنا هي العمل في كل ما هو جديد ومبتكر، لتوفير **حياة أجمل وراحة خيالية** لعملائنا الكرام. نضمن أن منتجاتنا ستكون ممتازة وتستحق إرثاً.
+            </p>
+            <p class="contact-cta">
+                <i class="fab fa-whatsapp"></i> لأي استفسار حول الجودة أو الضمان، يرجى التواصل معنا مباشرةً على: 01066676445
+            </p>
+        </div>
+    </section>
+    
+    <footer id="contact" class="main-footer">
+        <p>جميع الحقوق محفوظة لـ Ovelox Shop © 2025</p>
+        <p>تصميم وتصنيع بأيدي خبراء</p>
     </footer>
 
-    <a href="https://wa.me/00201066676445" target="_blank" id="floating-whatsapp-btn" title="احجز الآن">
-        <img src="assets/media/whatsapp-icon.png" alt="WhatsApp">
+    <button id="fixed-cart-button" class="fixed-cart-button btn">
+        <i class="fas fa-shopping-cart"></i> سلة الشراء (<span id="fixed-cart-count">0</span>)
+    </button>
+    
+    <a href="https://api.whatsapp.com/send/?phone=201066676445" target="_blank" class="fixed-whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> خصم ١٥٪؜
     </a>
     
-    <script src="assets/js/scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
